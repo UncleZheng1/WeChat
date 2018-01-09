@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/contacts/contacts",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Demo",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor":"#428FDB",
+    "position":"bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"res/images/icon_nav1.png",
+        "selectedIconPath":"res/images/icon_nav1-1.png"
+      },
+      {
+        "pagePath": "pages/contacts/contacts",
+        "text": "联系人",
+        "iconPath":"res/images/icon_nav2.png",
+        "selectedIconPath":"res/images/icon_nav2-2.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "res/images/icon_nav3.png",
+        "selectedIconPath": "res/images/icon_nav3-3.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000,
+    "connectSocket":"5000"
+  },
+  "debug": true
+}
